@@ -2,10 +2,12 @@ kwMinify
 ========
 
 Minify for Oxid
-13:32 31-5-2013
----------------
 
-add to config.inc.php:
+Install minify in:
+
+    /min/
+
+Add to config.inc.php:
 
     // Minify
     $this->kwUseMinify = 2; //<0|1|2>
@@ -18,3 +20,8 @@ Copy the smarty functions to:
 
     /core/smarty/plugins/
 
+Then use:
+
+    [{kwscript}] and [{kwstyle}], instead of [{ox...}].
+
+in your templates.
